@@ -1,0 +1,39 @@
+{
+  "name": "spcr-whats-new",
+  "version": "1.0.0",
+  "description": "Spicetify creator plugin to show what's new in your app/extension",
+  "main": "src/app.tsx",
+  "author": {
+    "name": "jeroentvb",
+    "url": "https://github.com/jeroentvb"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeroentvb/spcr-whats-new.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeroentvb/spcr-whats-new/issues"
+  },
+  "homepage": "https://github.com/jeroentvb/spcr-whats-new#readme",
+  "keywords": [
+    "spcr-plugin",
+    "whats-new"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix --ext .ts,.tsx ."
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",
+    "@types/semver": "^7.3.9",
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
+    "eslint": "^8.9.0",
+    "eslint-plugin-react": "^7.28.0"
+  },
+  "dependencies": {
+    "semver": "^7.3.5"
+  }
+}
