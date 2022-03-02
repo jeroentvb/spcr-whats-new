@@ -48,20 +48,18 @@ import React from 'react';
 import whatsNew from 'spcr-whats-new';
 import { version } from 'path/to/package.json';
 
-export default function showWhatsNew() {
-    const jsxElement = (
-        <p>Lorem ipsum dolor sit amet</p>
-    );
+const jsxElement = (
+    <p>Lorem ipsum dolor sit amet</p>
+);
 
-    whatsNew(
-        'whats-new',
-        version,
-        {
-            title: `New in spcr-whats-new v${version}`,
-            content: jsxElement,
-        }
-    );
-}
+whatsNew(
+    'whats-new',
+    version,
+    {
+        title: `New in spcr-whats-new v${version}`,
+        content: jsxElement,
+    }
+);
 ```
 </details>
 <details>
