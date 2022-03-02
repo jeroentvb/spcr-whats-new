@@ -1,6 +1,6 @@
 {
   "name": "spcr-whats-new",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Spicetify creator plugin to show what's new in your app/extension",
   "main": "src/app.tsx",
   "author": {
@@ -18,6 +18,9 @@
   "keywords": [
     "spcr-plugin",
     "whats-new"
+  ],
+  "files": [
+    "src/**/*"
   ],
   "scripts": {
     "lint": "eslint .",
