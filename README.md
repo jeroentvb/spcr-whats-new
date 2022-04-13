@@ -81,16 +81,14 @@ const markdown = (
     <ReactMarkdown children={CHANGE_NOTES} />
 );
 
-whatsNew(
-    whatsNew(
-        'whats-new',
-        version,
-        {
-            title: `New in spcr-whats-new v${version}`,
-            content: markdown,
-            isLarge: true,
-        }
-    );
+ whatsNew(
+    'whats-new',
+    version,
+    {
+        title: `New in spcr-whats-new v${version}`,
+        content: markdown,
+        isLarge: true,
+    }
 );
 
 ```
